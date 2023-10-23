@@ -5,7 +5,7 @@ import Home from './features/HomePage';
 function App() {
   return (
     <Routes>
-      <Route path="/" element={<Home />} />
+      <Route path="/" element={<Home/>} />
       {/* Add other routes here */}
     </Routes>
   );
