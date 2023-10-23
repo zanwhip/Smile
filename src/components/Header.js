@@ -4,7 +4,7 @@ import iconBImage from '../Assets/image/notification.png';
 import iconSearch from '../Assets/image/searchicon.png';
 import icondown from '../Assets/image/dropdown.png';
 import logo from '../Assets/image/logo.png';
-import '../css/Header.css'; // Import a CSS file to apply styles
+import "./css/Header.css" // Import a CSS file to apply styles
 import { width } from '@mui/system';
 
 function Header() {
@@ -38,7 +38,7 @@ function Header() {
         <div className="language-selector" onClick={toggleLanguageDropdown}>
           <span>{language}</span>
           {showLanguageDropdown && language === 'Vie' && (
-            <div className="language-dropdown">
+            <div className="language-dropdown" >
               <ul>
                 <li onClick={() => selectLanguage('Vie')}>Vie</li>
                 <li onClick={() => selectLanguage('Japan')}>Japan</li>

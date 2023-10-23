@@ -1,9 +1,11 @@
 .header-container {
     display: flex;
     align-items: center;
-    background-color:blanchedalmond;
+   
     padding: 10px;
     height: 150;
+    background-size: cover;
+    position: absolute;
   }
   
   .logo-container {
@@ -45,6 +47,7 @@
   
   .language-selector {
     cursor: pointer;
+    
   }
   
   .icon {
