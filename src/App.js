@@ -1,11 +1,14 @@
-import React from 'react'
+import React from 'react';
+import { Route, Routes } from 'react-router-dom';
+import Home from './features/HomePage';
 
-const App = () => {
+function App() {
   return (
-    <div>
-      <h1> Nguyen Van Hung</h1>
-    </div>
-  )
+    <Routes>
+      <Route path="/" element={<Home />} />
+      {/* Add other routes here */}
+    </Routes>
+  );
 }
 
-export default App
+export default App;
