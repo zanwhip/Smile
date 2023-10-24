@@ -4,8 +4,8 @@ import iconBImage from '../Assets/image/notification.png';
 import iconSearch from '../Assets/image/searchicon.png';
 import icondown from '../Assets/image/dropdown.png';
 import logo from '../Assets/image/logo.png';
-import "./css/Header.css" // Import a CSS file to apply styles
-import { width } from '@mui/system';
+import "../css/components/Header.css" // Import a CSS file to apply styles
+
 
 function Header() {
   const [language, setLanguage] = useState('Vie');
