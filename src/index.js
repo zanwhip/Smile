@@ -9,6 +9,7 @@ import {
 } from "react-router-dom";
 import Home from './features/HomePage';
 import Contact from './features/ContactPage';
+import DetailProject from './features/DetailProject';
 
 const router = createBrowserRouter([
   {
@@ -18,6 +19,10 @@ const router = createBrowserRouter([
   {
     path: "/contact",
     element: <Contact />,
+  },
+  {
+    path: "/detailproject",
+    element: <DetailProject  />,
   },
 ]);
 

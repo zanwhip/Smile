@@ -1,6 +1,7 @@
 import React from 'react';
 import Header from '../components/Header';
 import banner from '../Assets/image/contactbanner.png';
+import Footer from '../components/Footer';
 
 const bannerStyle = {
   position: 'relative',
@@ -18,12 +19,18 @@ const textContainerStyle = {
 const textStyle1 = {
   color: 'white',
   fontSize: '12px',
-  fontWeight: 400,
+  fontWeight: 600,
+  fontFamily : 'Nunito',
+  lineHeight : '24px'
 };
 const textStyle2 = {
+  
   color: 'white',
   fontSize: '50px',
-  fontWeight: 600,
+  fontFamily : 'Playfair Display',
+  fontWeight : 700,
+  textTransform : 'capitalize',
+  lineHeight : '60px'
 };  
  
 const formcontainer = {
@@ -57,12 +64,13 @@ const form = {
 
 function Contact() {
   return (
+    <div> 
     <div style={{ position: 'relative', height: '100vh' }}>
       <div style={bannerStyle}>
         <Header />
         <img src={banner} alt="banner" className="banner" style={{ width: "100%" }}></img>
         <div style={textContainerStyle}>
-        <p style={textStyle2}>Liên hệ với chúng tôi </p>
+        <label style={textStyle2}>Liên hệ với chúng tôi </label>
           <p style={textStyle1}>Trang chủ/Liên hệ với chúng tôi</p>
           
         
@@ -70,9 +78,9 @@ function Contact() {
       </div>
 
       <div style={formcontainer}>
-      <p style={{   color: 'black',  fontSize: '12px',  fontWeight: 500, paddingTop : '10px' }}>Get in touch</p>
+      <p style={{   color: 'black',  fontSize: '12px',  fontWeight: 500, paddingTop : '10px', fontFamily : 'Playfair Display' }}>Get in touch</p>
       {/* <line style={{ width : '50px', fontWeight : '15px' }}/> */}
-      <p style={{   color: 'black',  fontSize: '40px',  fontWeight: 500, }}>Hãy gửi tin nhắn</p>
+      <label style={{   color: 'black',  fontSize: '40px',  fontWeight: 700,fontFamily : 'Playfair Display' , lineHeight : '50px', textTransform : 'capitalize' }}>Hãy gửi tin nhắn</label>
        
       <div style={formandbox}>
         <div style={form}> 
@@ -129,19 +137,19 @@ function Contact() {
 />
           </div>
           <div>
-            <button style={{ width : '70px',height: '30px', marginLeft : 10, backgroundColor : '#219D80', border: 0,   }}>Gửi</button>
+            <button style={{ width : '70px',height: '30px', marginLeft : 10, backgroundColor : '#219D80', border: 0, borderRadius : 5, color : 'white' , marginTop : 20   }}>Gửi</button>
           </div>
         </div >
         <div style={box}>
           <div style={{ width : '100%', height : '300px' , backgroundColor : '#EAEDF5', marginTop : 20 , borderRadius : "10px", padding : 10 }}>
-           <p style={{ fontSize : '25px', fontWeight : 700,  }}>Liên lạc </p>
-           <p style={{ fontSize : '15px', fontWeight : 300,  }}>Nếu có bất kì thắc mắc gì hãy cứ gửi tin nhắn hoặc gọi 
+           <label style={{ fontSize : '39px', fontWeight : 700, fontFamily :'Playfair Display' }}>Liên lạc </label>
+           <p style={{ fontSize : '15px', fontWeight : 300, fontFamily : 'Montserrat' }}>Nếu có bất kì thắc mắc gì hãy cứ gửi tin nhắn hoặc gọi 
 điện cho chúng tôi, đội ngũ làm việc hoạt động 24/7 sẽ
 hỗ trợ tận tình.  </p>
-          <p style={{ fontSize : '15px', fontWeight : 500,  }}>Địa chỉ : Thôn Pà-Ong, Xã Cà Dy, huyện Nam
+          <p style={{ fontSize : '15px', fontWeight : 500,fontFamily : 'Montserrat'   }}>Địa chỉ : Thôn Pà-Ong, Xã Cà Dy, huyện Nam
 Giang, tỉnh Quảng Nam</p>
-          <p style={{ fontSize : '15px', fontWeight : 500,  }} >điện thoại  : +84123456789 </p>
-          <p style={{ fontSize : '15px', fontWeight : 500,  }} >Email : givelifecharity@gmail.com</p>
+          <p style={{ fontSize : '15px', fontWeight : 500,fontFamily : 'Montserrat'   }} >Điện thoại  : +84123456789 </p>
+          <p style={{ fontSize : '15px', fontWeight : 500,fontFamily : 'Montserrat'   }} >Email : givelifecharity@gmail.com</p>
 
           </div>
 
@@ -151,6 +159,8 @@ Giang, tỉnh Quảng Nam</p>
 
       </div>
 
+    </div>
+    
     </div>
   );
 }

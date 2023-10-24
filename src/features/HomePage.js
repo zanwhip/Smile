@@ -1,6 +1,7 @@
 import React from 'react';
 import Header from '../components/Header';
 import banner from '../Assets/image/bannertrangchu.png';
+import Footer from '../components/Footer';
 
 const bannerStyle = {
   position: 'relative',
@@ -157,7 +158,9 @@ function Home() {
           <p>Mục tiêu: 10,000,000₫</p>
         </div>
       </div>
+    <Footer/>
     </div>
+   
   );
 }
 
