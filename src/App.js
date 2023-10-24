@@ -1,13 +1,9 @@
 import React from 'react';
-import { Route, Routes } from 'react-router-dom';
-import Home from './features/HomePage';
+import { Outlet } from 'react-router-dom';
 
 function App() {
   return (
-    <Routes>
-      <Route path="/" element={<Home />} />
-      {/* Add other routes here */}
-    </Routes>
+    <Outlet />
   );
 }
 
