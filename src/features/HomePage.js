@@ -290,7 +290,6 @@ function Home() {
       <div>
         <p>AAAAAAAAAAAAAAAAAAAAAAA</p>
         <p>aaaaaaaaaaaaaaaaa</p>
-        
       </div>
       </div>
       <Footer />
