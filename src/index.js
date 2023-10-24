@@ -7,11 +7,17 @@ import {
   createBrowserRouter,
   RouterProvider,
 } from "react-router-dom";
+import Home from './features/HomePage';
+import Contact from './features/ContactPage';
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <App />,
+    element: <Home />,
+  },
+  {
+    path: "/contact",
+    element: <Contact />,
   },
 ]);
 

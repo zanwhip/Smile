@@ -29,9 +29,9 @@ function Header() {
       <nav className="nav-container">
       <ul className="nav-list">
         <li><a href="/" style={{ fontSize: '20px', fontWeight: 'bold', }}>Trang chủ</a></li>
-        <li><a href="/donate" style={{ fontSize: '20px', fontWeight: 'bold',color: 'black' }}>Quyên góp</a></li>
-        <li><a href="/shop" style={{ fontSize: '20px', fontWeight: 'bold', color: 'black' }}>Mua bán</a></li>
-        <li><a href="/news" style={{ fontSize: '20px', fontWeight: 'bold',color: 'black' }}>Bản tin</a></li>
+        <li><a href="/donate" style={{ fontSize: '20px', fontWeight: 'bold',color : 'white' }}>Quyên góp</a></li>
+        <li><a href="/shop" style={{ fontSize: '20px', fontWeight: 'bold', color : 'white' }}>Mua bán</a></li>
+        <li><a href="/news" style={{ fontSize: '20px', fontWeight: 'bold',color : 'white' }}>Bản tin</a></li>
       </ul>
       </nav>
       <div className="language-search-icons-container">

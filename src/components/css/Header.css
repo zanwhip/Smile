@@ -14,7 +14,7 @@
   }
   
   .logo {
-    width: 100px;
+    width: 70px;
   }
   
   .nav-container {
@@ -34,7 +34,7 @@
   .nav-list a {
     font-size: 20px;
     padding-right: 30px;
-    color: black;
+    color: rgb(255, 255, 255);
     text-decoration: none; /* Remove underline */
 }
   
@@ -43,6 +43,7 @@
     align-items: center;
     padding-right: 30px;
     font-weight: bold;
+    color: rgb(255, 255, 255);  
   }
   
   .language-selector {
@@ -56,16 +57,16 @@
     padding-left: 30px;
   }
   .search-box {
-    background-color: aquamarine;
+    background-color: #219D80;
     width: 125px;
     height: 25px;
-    border: 1px solid black;
+    border: 1px solid rgb(255, 255, 255);
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
     font-weight: bold;
-    color: black;
+    color: rgb(255, 255, 255);
   }
   .searchIcon{
     width: 30px;
@@ -79,7 +80,7 @@
   .icon-container {
     width: 30px;
     height: 30px;
-    background-color: aquamarine;
+    background-color: #219D80;
   }
   
   /* Add more styles as needed for other elements */
