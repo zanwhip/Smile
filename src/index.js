@@ -9,6 +9,7 @@ import DetailProject from './features/DetailProject';
 import Project from './features/Project';
 import Header from '../src/components/Header';
 import MemberPage from './features/MemberPage';
+import DetailMemberPage from './features/DetailMemberPage';
 
 const router = createBrowserRouter([
   {
@@ -30,6 +31,10 @@ const router = createBrowserRouter([
   {
     path: '/member',
     element: <MemberPage />,
+  },
+  {
+    path: '/detail-member',
+    element: <DetailMemberPage />,
   },
 ]);
 
