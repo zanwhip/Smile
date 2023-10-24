@@ -25,6 +25,10 @@ const router = createBrowserRouter([
   },
   {
     path: '/project',
+    element: <Project />,
+  },
+  {
+    path: '/member',
     element: <MemberPage />,
   },
 ]);
