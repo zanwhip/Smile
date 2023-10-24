@@ -69,7 +69,7 @@ const contentContainerStyle = {
 };
 
 const donateTextStyle = {
-  width : "75%" , 
+  width: '75%',
   fontSize: '16px',
   display: 'flex',
   alignItems: 'center',
@@ -81,8 +81,6 @@ const ratingContainerStyle = {
   display: 'flex',
   alignItems: 'center',
 };
-
-
 
 const ratingBarStyle = {
   width: '80%', // Điều chỉnh độ đánh giá theo nhu cầu
@@ -103,14 +101,14 @@ const donateButtonStyle = {
   marginLeft: 70,
   border: 0,
   backgroundColor: '#219D80',
-  color: "#FFFFFF",
+  color: '#FFFFFF',
 };
 
 const additionalInfoStyle = {
   display: 'flex',
   justifyContent: 'space-between',
   fontSize: '16px',
- width : '75%'
+  width: '75%',
 };
 
 function Home() {
@@ -118,12 +116,19 @@ function Home() {
     <div style={{ position: 'relative', height: '100vh' }}>
       <div style={bannerStyle}>
         <Header />
-        <img src={banner} alt="banner" className="banner" style={{ width: "100%" }}></img>
+        <img
+          src={banner}
+          alt='banner'
+          className='banner'
+          style={{ width: '100%' }}
+        ></img>
         <div style={textContainerStyle}>
           <p style={textStyle1}>MANG HY VỌNG ĐẾN NHỮNG MẢNH ĐỜI KHÓ KHĂN</p>
           <p style={textStyle2}>Tay trong tay, cùng chia sẻ yêu thương</p>
-          <p style={textStyle3}>Bằng việc nâng cao chất lượng cuộc sống của người khác
-            chúng ta cũng đang nâng cao chất lượng cuộc sống của chúng ta</p>
+          <p style={textStyle3}>
+            Bằng việc nâng cao chất lượng cuộc sống của người khác chúng ta cũng
+            đang nâng cao chất lượng cuộc sống của chúng ta
+          </p>
           <button style={buttonStyle1}>Quyên góp</button>
           <button style={buttonStyle2}>Mua bán</button>
         </div>
@@ -132,11 +137,11 @@ function Home() {
       <div style={videoContainerStyle}>
         {/* Nhúng video từ YouTube */}
         <iframe
-          width="840"
-          height="427"
-          src="https://www.youtube.com/embed/543jwFfCZvg?list=PLp6D8X7L5wgbTLG-OR0q8hJws4wD18e7o"
-          title="YouTube video player"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          width='840'
+          height='427'
+          src='https://www.youtube.com/embed/543jwFfCZvg?list=PLp6D8X7L5wgbTLG-OR0q8hJws4wD18e7o'
+          title='YouTube video player'
+          allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture'
           allowfullscreen
         ></iframe>
       </div>
@@ -158,9 +163,8 @@ function Home() {
           <p>Mục tiêu: 10,000,000₫</p>
         </div>
       </div>
-    <Footer/>
+      <Footer />
     </div>
-   
   );
 }
 
