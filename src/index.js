@@ -8,7 +8,7 @@ import Contact from './features/ContactPage';
 import DetailProject from './features/DetailProject';
 import Project from './features/Project';
 import Header from '../src/components/Header';
-import DetailMemberPage from './features/DetailMemberPage';
+import MemberPage from './features/MemberPage';
 
 const router = createBrowserRouter([
   {
@@ -28,8 +28,8 @@ const router = createBrowserRouter([
     element: <Project />,
   },
   {
-    path: '/detailmember',
-    element: <DetailMemberPage/>,
+    path: '/member',
+    element: <MemberPage />,
   },
 ]);
 
