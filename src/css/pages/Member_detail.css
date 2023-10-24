@@ -1,0 +1,8 @@
+.member_detail_container {
+    width: 800px;
+    height: 600px;
+    background-color: #EAF5EF;
+    align-items: center;
+    justify-items: center ;
+    margin: 20px;
+}

@@ -8,6 +8,7 @@ import Contact from './features/ContactPage';
 import DetailProject from './features/DetailProject';
 import Project from './features/Project';
 import Header from '../src/components/Header';
+import DetailMemberPage from './features/DetailMemberPage';
 
 const router = createBrowserRouter([
   {
@@ -25,6 +26,10 @@ const router = createBrowserRouter([
   {
     path: '/project',
     element: <Project />,
+  },
+  {
+    path: '/detailmember',
+    element: <DetailMemberPage/>,
   },
 ]);
 
