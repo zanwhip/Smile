@@ -61,6 +61,7 @@ const Footer = () => {
 
 
 const Wrapper = styled.section`
+position: fixed;
 
    width: 100%; 
   display: flex;

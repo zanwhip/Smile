@@ -1,37 +1,53 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
-import Footer from './components/Footer';
-
 import reportWebVitals from './reportWebVitals';
-import {
-  createBrowserRouter,
-  RouterProvider,
-} from "react-router-dom";
-import Newfeed from './features/NewfeedPage';
+import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+import Home from './features/HomePage';
+import Contact from './features/ContactPage';
+import DetailProject from './features/DetailProject';
+import Project from './features/Project';
+import Header from '../src/components/Header';
+import MemberPage from './features/MemberPage';
+import DetailMemberPage from './features/DetailMemberPage';
+import Newfeedpage from './features/NewfeedPage'
 
 const router = createBrowserRouter([
   {
-    path: "/",
-    element: <App />,
-    children: [
-      {
-        path: 'footer',
-        element: <Footer/>
-      },
-      {
-        path : 'newfeed',
-        element : <Newfeed/>
-      }
-    ]
+    path: '/',
+    element: <Home />,
+  },
+  {
+    path: '/contact',
+    element: <Contact />,
+  },
+  {
+    path: '/detailproject',
+    element: <DetailProject />,
+  },
+  {
+    path: '/project',
+    element: <Project />,
+  },
+  {
+    path: '/member',
+    element: <MemberPage />,
+  },
+  {
+    path: '/detail-member',
+    element: <DetailMemberPage />,
+  },
+  {
+    path: '/newfeed',
+    element: <Newfeedpage />,
   },
 ]);
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-   <RouterProvider router={router} />  
+    <Header />
+    <RouterProvider router={router} />
   </React.StrictMode>
 );
 
