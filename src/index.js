@@ -9,6 +9,7 @@ import {
   createBrowserRouter,
   RouterProvider,
 } from "react-router-dom";
+import Newfeed from './features/NewfeedPage';
 
 const router = createBrowserRouter([
   {
@@ -18,6 +19,10 @@ const router = createBrowserRouter([
       {
         path: 'footer',
         element: <Footer/>
+      },
+      {
+        path : 'newfeed',
+        element : <Newfeed/>
       }
     ]
   },
