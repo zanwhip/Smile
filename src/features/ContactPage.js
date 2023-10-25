@@ -1,5 +1,6 @@
 import React from 'react';
 import banner from '../Assets/image/contactbanner.png';
+import Footer from '../components/Footer';
 
 const bannerStyle = {
   position: 'relative',
@@ -40,7 +41,7 @@ const formcontainer = {
 
 const formandbox = {
   width: '80%',
-  height: 350,
+  height: '100%',
   display: 'flex', // Sử dụng Flexbox
   flexDirection: 'row', // Hiển thị dạng hàng ngang
 };
@@ -56,6 +57,7 @@ const box = {
 
 function Contact() {
   return (
+    <>
     <div>
       <div style={{ position: 'relative', height: '100vh' }}>
         <div style={bannerStyle}>
@@ -213,8 +215,11 @@ function Contact() {
                 >
                   Gửi
                 </button>
+                
               </div>
+              
             </div>
+            
             <div style={box}>
               <div
                 style={{
@@ -277,9 +282,17 @@ function Contact() {
               </div>
             </div>
           </div>
+         
         </div>
+       
       </div>
+      <div style={{ marginTop : '400px' }}>
+      <Footer /> 
+      </div>
+    
     </div>
+ 
+    </>
   );
 }
 

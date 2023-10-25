@@ -1,10 +1,16 @@
 import React from 'react';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
+import maxim from '../Assets/image/maxim.png'
+import tron1 from '../Assets/image/tron1.png'
+import tron2 from '../Assets/image/tron2.png'
+import tron3 from '../Assets/image/tron3.png'
+import tron4 from '../Assets/image/tron4.png'
 import banner from '../Assets/image/bannertrangchu.png';
 import hinhtron from '../Assets/image/hinhtron.jpg'
 import ProjectItem from '../components/ProjectItem';
 import '../css/pages/Project.css';
+import '../css/Newfeed.css'
 
 
 
@@ -65,9 +71,9 @@ const videoContainerStyle = {
 
 const contentContainerStyle = {
   position: 'relative',
-  marginLeft: 323,
+  marginLeft: 185,
   textAlign: 'center',
-  width: 840,
+  width: 815,
   marginTop: 30,
   marginBottom: 30,
   paddingLeft: 15,
@@ -287,10 +293,49 @@ function Home() {
 </div>
 </div>
 
-      <div>
-        <p>AAAAAAAAAAAAAAAAAAAAAAA</p>
-        <p>aaaaaaaaaaaaaaaaa</p>
+      <div style={{ margin : 20,  }}>
+        <label style={{ fontFamily :'Montserrat', fontSize : '18px', fontStyle :'normal' , fontWeight :'600' }}>Our Fun Facts</label>
+        <p  style={{ fontSize : 39, fontFamily : 'Playfair Display', fontStyle : 'normal', fontWeight: '700'}}>Chúng tôi tin rằng có thể thực hiện sứ mệnh của tổ chức</p>
       </div>
+      <div style={{ marginBottom :'100px'  }}>
+        <div style={{ width :'100%', display :'flex', flexDirection :'row', }}>
+          <div style={{ width :'250px', height :'250px' , backgroundColor :'#EAEDF5', borderRadius : 150, marginLeft : 100,marginRight : 100,  }}>
+          <img src={tron1} alt="tron1" className="tron1" style={{ width: "100%" }}></img>
+          </div>
+          <div style={{ width :'250px', height :'250px' , backgroundColor :'#EAEDF5', borderRadius : 150, marginLeft : 100,marginRight : 100,  }}>
+          <img src={tron2} alt="tron2" className="tron2" style={{ width: "100%" }}></img>
+          </div>
+        </div>
+        <div style={{ width :'100%', display :'flex', flexDirection :'row', marginLeft : 300 }}>
+          <div style={{ width :'250px', height :'250px' , backgroundColor :'#EAEDF5', borderRadius : 150, marginLeft : 100,marginRight : 100,  }}>
+          <img src={tron3} alt="tron3" className="tron3" style={{ width: "100%" }}></img>
+          </div>
+          <div style={{ width :'250px', height :'250px' , backgroundColor :'#EAEDF5', borderRadius : 150, marginLeft : 100,marginRight : 100,  }}>
+          <img src={tron4} alt="tron4" className="tron4" style={{ width: "100%" }}></img>
+          </div>
+        </div>
+      </div>
+      <div className='Maxim'>
+        <table className="custom-tableMaxim">
+  <tbody>
+    <tr>
+      <td rowspan="2">
+        <img className="imageMaxim" src={maxim} alt="IconDown" />
+      </td>
+      
+      <td >
+       
+        <p style={{textAlign : 'center',fontFamily:'Playfair Display', fontSize : '30px'}}> “ Khi bạn hỗ trợ một người khác, bạn không chỉ đang thay đổi cuộc sống của họ, 
+        mà còn đang tạo ra một chuỗi tương lai tích cực. Từ thiện có tác động lan truyền, và những hành động nhỏ bé có thể mang lại những kết quả lớn lao trong tương lai. “</p></td>
+        
+    </tr>
+    <tr>
+     
+   
+    </tr>
+  </tbody>
+</table>
+        </div>
       </div>
       <Footer />
     </div>
