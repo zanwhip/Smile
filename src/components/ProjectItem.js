@@ -17,13 +17,13 @@ const ProjectItem = ({
   aimContribute,
 }) => {
   return (
-    <Box color="white" p={1} className="Box">
+    <Box color="white" p={1} className="BoxProgram">
       <div>
         <div className="imgBlock">
           <img src={projectItem} alt="projectItem" className="imgProject" />
           <img src={playVideo} alt="playVideo" className="imgDisplay" />
         </div>
-        <div className="containerInfor">
+        <div className="containerInforma">
           <div className="line1">
             <span className="textField">{field}</span>
             <img src={shareIcon} alt="shareIcon" className="shareIcon" />
