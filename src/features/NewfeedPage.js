@@ -1,6 +1,9 @@
 import React, { useState } from 'react';
 import '../css/Newfeed.css';
+<<<<<<< HEAD
 import bannerNewfeed from '../Assets/image/bannerNewfeed.png';
+=======
+>>>>>>> dff6f94e65f3b1636b449a6940f99066a93c45d1
 import elip from '../Assets/image/avatarCircle.png';
 import nf1 from '../Assets/image/newfeed1.png';
 import avatar from '../Assets/image/avatar.png';
@@ -24,6 +27,7 @@ import Footer from '../components/Footer';
 
 const Newfeedpage = () => {
     return (
+<<<<<<< HEAD
      
         <> 
          <div>
@@ -34,6 +38,9 @@ const Newfeedpage = () => {
         style={{ width: '100%' }}
       />
         </div>
+=======
+        <> 
+>>>>>>> dff6f94e65f3b1636b449a6940f99066a93c45d1
         <div style={{ margin : 100 }}>
         <div className='News' style={{ marginBottom : 50 }}>BẢN TIN</div>
         <div className='ContainerBoth' style={{ display : 'flex'  }}>
@@ -349,8 +356,19 @@ const Newfeedpage = () => {
     </div>
   </div>
 
+<<<<<<< HEAD
   </div>
 
+=======
+
+  
+
+
+  </div>
+
+
+
+>>>>>>> dff6f94e65f3b1636b449a6940f99066a93c45d1
             </div>
           </div>
 
@@ -371,7 +389,11 @@ const Newfeedpage = () => {
       
       <td >
        
+<<<<<<< HEAD
         <p style={{textAlign : 'center',fontFamily:'Playfair Display', fontSize : '30px'}}> “ Khi bạn hỗ trợ một người khác, bạn không chỉ đang thay đổi cuộc sống của họ, 
+=======
+        <p style={{textAlign : 'center',fontFamily:'Playfair Display'}}> “ Khi bạn hỗ trợ một người khác, bạn không chỉ đang thay đổi cuộc sống của họ, 
+>>>>>>> dff6f94e65f3b1636b449a6940f99066a93c45d1
         mà còn đang tạo ra một chuỗi tương lai tích cực. Từ thiện có tác động lan truyền, và những hành động nhỏ bé có thể mang lại những kết quả lớn lao trong tương lai. “</p></td>
         
     </tr>

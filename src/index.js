@@ -9,8 +9,13 @@ import DetailProject from './features/DetailProject';
 import Project from './features/Project';
 import Header from '../src/components/Header';
 import MemberPage from './features/MemberPage';
+<<<<<<< HEAD
 import Newfeedpage from './features/NewfeedPage'
 import About from './features/AboutPage';
+=======
+import DetailMemberPage from './features/DetailMemberPage';
+import Newfeedpage from './features/NewfeedPage'
+>>>>>>> dff6f94e65f3b1636b449a6940f99066a93c45d1
 
 const router = createBrowserRouter([
   {
@@ -34,6 +39,7 @@ const router = createBrowserRouter([
     element: <MemberPage />,
   },
   {
+<<<<<<< HEAD
     path: '/newfeed',
     element: <Newfeedpage />,
   },
@@ -41,6 +47,15 @@ const router = createBrowserRouter([
     path: '/about',
     element: <About />,
   },
+=======
+    path: '/detail-member',
+    element: <DetailMemberPage />,
+  },
+  {
+    path: '/newfeed',
+    element: <Newfeedpage />,
+  },
+>>>>>>> dff6f94e65f3b1636b449a6940f99066a93c45d1
 ]);
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
