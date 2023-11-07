@@ -207,8 +207,8 @@ function DetailProject() {
             </div>
             <div style={contentContainerStyle}>
               <div style={donateTextStyle}>
-                <label>Quyên góp</label>
-                <label>60%</label>
+                <label style={{ fontSize : 15, fontWeight : 600, fontFamily :  'Montserrat' }}>Quyên góp</label>
+                <label style={{ fontSize : 15, fontWeight : 600, fontFamily :  'Montserrat' }}>60%</label>
               </div>
 
               <div style={ratingContainerStyle}>
@@ -218,8 +218,11 @@ function DetailProject() {
                 <button style={donateButtonStyle}>Đóng góp ngay</button>
               </div>
               <div style={additionalInfoStyle}>
-                <label>Đã góp được: 6,000,000₫</label>
-                <label>Mục tiêu: 10,000,000₫</label>
+                <label style={{ fontSize : 15, fontWeight : 600, fontFamily :  'Montserrat' }}>Đã góp được: 6,000,000₫</label>
+                <div>
+                <label style={{ fontSize : 15, fontWeight : 600, fontFamily :  'Montserrat' }}>10,000,000₫</label>
+                </div>
+                
               </div>
             </div>
           </div>
