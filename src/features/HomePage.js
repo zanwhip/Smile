@@ -337,7 +337,9 @@ function Home() {
 </table>
         </div>
       </div>
-      <Footer />
+      <div>
+        <Footer/>
+      </div>
     </div>
   );
 }

@@ -1,85 +1,88 @@
 .News {
-    color: #252A34; 
-    font-size: 30px; 
-    font-family: Playfair Display; 
-    font-weight: 700; 
-    text-transform: capitalize; 
-    line-height: 50px; 
-    word-wrap: break-word
+  color: #252a34;
+  font-size: 30px;
+  font-family: Playfair Display;
+  font-weight: 700;
+  text-transform: capitalize;
+  line-height: 50px;
+  word-wrap: break-word;
 }
 .font_category {
-    color: black;
-    font-size: 18px;
-    font-family: Playfair Display;
-    font-weight: 500; 
-    text-transform: capitalize; 
-    line-height: 33px; 
-    word-wrap: break-word;
-    
+  color: black;
+  font-size: 18px;
+  font-family: Playfair Display;
+  font-weight: 500;
+  text-transform: capitalize;
+  line-height: 33px;
+  word-wrap: break-word;
 }
 
 .Category {
-    width: 100%; 
-    height: 300px; 
-    background: #EAEDF5;
-    border-radius: 10px
+  width: 100%;
+  height: 300px;
+  background: #eaedf5;
+  border-radius: 10px;
 }
 
 .Container {
-    width: 100%; 
-    height: 940px; 
-    background: #EAEDF5; 
-    box-shadow: 4px 4px 4px; 
-    border-radius: 30px; 
-    border-bottom: 1px #6BA996 solid; 
-    
+  width: 100%;
+  height: 940px;
+  background: #eaedf5;
+  box-shadow: 4px 4px 4px;
+  border-radius: 30px;
+  border-bottom: 1px #6ba996 solid;
 }
 .custom-table {
-   
-    width: 100%;
-  }
-  
-  .custom-table td {
-    
-    padding: 10px;
-    text-align: center;
-  }
-  
-  .image {
-    width: 100px; /* Kích thước hình ảnh */
-  }
-  .emoji-bar {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
+  width: 100%;
+}
 
-  .emoji {
-    font-size: 24px;
-    cursor: pointer;
-    margin: 5px;
-  }
-  .ContainerIcon {
-    width: 100%; 
-    height: 100%; 
-    background: #D1DBF7; 
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); 
-    border-radius: 20px; 
-    border: 1px solid
-  }
+.custom-table td {
+  padding: 10px;
+  text-align: center;
+}
+
+.image {
+  width: 100px; /* Kích thước hình ảnh */
+}
+.emoji-bar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.emoji {
+  font-size: 24px;
+  cursor: pointer;
+  margin: 5px;
+}
+.ContainerIcon {
+  width: 100%;
+  height: 100%;
+  background: #d1dbf7;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  border: 1px solid;
+}
 
 .Title {
-  width: 100%; color: #252A34; font-size: 15px; font-family: Montserrat; font-weight: 300; text-transform: capitalize; line-height: 15px; word-wrap: break-word
+  width: 100%;
+  color: #252a34;
+  font-size: 15px;
+  font-family: Montserrat;
+  font-weight: 300;
+  text-transform: capitalize;
+  line-height: 15px;
+  word-wrap: break-word;
 }
 .detail {
-  color: #252A34; font-size: 9px; font-family: Montserrat; font-weight: 500; text-transform: capitalize; line-height: 20px; word-wrap: break-word
+  color: #252a34;
+  font-size: 9px;
+  font-family: Montserrat;
+  font-weight: 500;
+  text-transform: capitalize;
+  line-height: 20px;
+  word-wrap: break-word;
 }
-
-
-
-
-
-
 
 .table-container {
   width: 100%;
@@ -98,7 +101,7 @@
   height: 50px;
   width: 55px;
   border-radius: 999px;
-  margin: 50px 10px 20px;;
+  margin: 50px 10px 20px;
 }
 
 .text-box {
@@ -123,15 +126,13 @@
 
 .button {
   margin: 10px;
- 
+
   padding: 10px 20px;
   border: none;
   border-radius: 5px;
-  background-color:rgba(23, 121, 192, 0.60); /* Màu nền nút */
+  background-color: rgba(23, 121, 192, 0.6); /* Màu nền nút */
   color: white; /* Màu chữ trên nút */
 }
-
-
 
 /* maxim */
 
@@ -139,8 +140,7 @@
   border: 1px solid black;
   width: 100%;
   height: 350px;
-  background: #66C085;
-
+  background: #66c085;
 }
 
 .custom-tableMaxim td {
@@ -149,9 +149,7 @@
   text-align: center;
   border: none;
   color: white;
- 
 }
-
 
 .imageMaxim {
   width: 200px;

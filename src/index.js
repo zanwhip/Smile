@@ -9,8 +9,8 @@ import DetailProject from './features/DetailProject';
 import Project from './features/Project';
 import Header from '../src/components/Header';
 import MemberPage from './features/MemberPage';
-import Newfeedpage from './features/NewfeedPage'
-import About from './features/AboutPage';
+import DetailMemberPage from './features/DetailMemberPage';
+import Newfeedpage from './features/NewfeedPage';
 
 const router = createBrowserRouter([
   {
@@ -34,12 +34,12 @@ const router = createBrowserRouter([
     element: <MemberPage />,
   },
   {
-    path: '/newfeed',
-    element: <Newfeedpage />,
+    path: '/detail-member',
+    element: <DetailMemberPage />,
   },
   {
-    path: '/about',
-    element: <About />,
+    path: '/newfeed',
+    element: <Newfeedpage />,
   },
 ]);
 
