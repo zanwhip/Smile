@@ -11,6 +11,7 @@ import Header from '../src/components/Header';
 import MemberPage from './features/MemberPage';
 import Newfeedpage from './features/NewfeedPage'
 import About from './features/AboutPage';
+import DetailMemberPage from './features/DetailMemberPage'
 
 const router = createBrowserRouter([
   {
@@ -40,6 +41,10 @@ const router = createBrowserRouter([
   {
     path: '/about',
     element: <About />,
+  },
+  {
+    path: '/detailmember',
+    element: <DetailMemberPage />,
   },
 ]);
 
