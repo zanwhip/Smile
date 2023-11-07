@@ -1,87 +1,86 @@
 .header-container {
-    display: flex;
-    align-items: center;
-   
-    padding: 10px;
-    height: 150;
-    background-size: cover;
-    position: absolute;
-  }
-  
-  .logo-container {
-    flex: 1;
-    width: 80px;
-  }
-  
-  .logo {
-    width: 70px;
-  }
-  
-  .nav-container {
-    display: flex;
-    gap: 20px;
-    list-style: none;
-    padding-right: 40px;
-  }
-  
-  .nav-list {
-    display: flex;
-    gap: 20px;
-    list-style: none;
-    padding-right: 30px;
-    text-decoration: none;
-  }
-  .nav-list a {
-    font-size: 20px;
-    padding-right: 30px;
-    color: rgb(255, 255, 255);
-    text-decoration: none; /* Remove underline */
+  display: flex;
+  align-items: center;
+ 
+  padding: 10px;
+  height: 150;
+  background-size: cover;
+  position: absolute;
 }
-  
-  .language-search-icons-container {
-    display: flex;
-    align-items: center;
-    padding-right: 30px;
-    font-weight: bold;
-    color: rgb(255, 255, 255);  
-  }
-  
-  .language-selector {
-    cursor: pointer;
-    
-  }
-  
-  .icon {
-    width: 40px;
-    height: 40px;
-    padding-left: 30px;
-  }
-  .search-box {
-    background-color: #219D80;
-    width: 125px;
-    height: 25px;
-    border: 1px solid rgb(255, 255, 255);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    font-weight: bold;
-    color: rgb(255, 255, 255);
-  }
-  .searchIcon{
-    width: 30px;
-    height: 30px;
 
-  }
-  .search-box .search-content {
-    display: inline; /* Để hiển thị nội dung trên cùng một dòng */
-  }
+.logo-container {
+  flex: 1;
+  width: 80px;
+}
+
+.logo {
+  width: 70px;
+}
+
+.nav-container {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+  padding-right: 40px;
+}
+
+.nav-list {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+  padding-right: 30px;
+  text-decoration: none;
+}
+.nav-list a {
+  font-size: 20px;
+  padding-right: 30px;
+  color: rgb(255, 255, 255);
+  text-decoration: none; /* Remove underline */
+}
+
+.language-search-icons-container {
+  display: flex;
+  align-items: center;
+  padding-right: 30px;
+  font-weight: bold;
+  color: rgb(255, 255, 255);  
+}
+
+.language-selector {
+  cursor: pointer;
   
-  .icon-container {
-    width: 30px;
-    height: 30px;
-    background-color: #219D80;
-  }
-  
-  /* Add more styles as needed for other elements */
-  
+}
+
+.icon {
+  width: 40px;
+  height: 40px;
+  padding-left: 30px;
+}
+.search-box {
+  background-color: #219D80;
+  width: 125px;
+  height: 25px;
+  border: 1px solid rgb(255, 255, 255);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+}
+.searchIcon{
+  width: 30px;
+  height: 30px;
+
+}
+.search-box .search-content {
+  display: inline; /* Để hiển thị nội dung trên cùng một dòng */
+}
+
+.icon-container {
+  width: 30px;
+  height: 30px;
+  background-color: #219D80;
+}
+
+/* Add more styles as needed for other elements */
