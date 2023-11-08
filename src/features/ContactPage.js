@@ -59,6 +59,7 @@ function Contact() {
   return (
     <>
     <div>
+      
       <div style={{ position: 'relative', height: '100vh' }}>
         <div style={bannerStyle}>
           <img

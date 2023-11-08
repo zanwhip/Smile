@@ -1,8 +1,12 @@
 import React from 'react';
 import banner from '../Assets/image/detailprojectbanner.png';
 import heart from '../Assets/image/heart.png';
+import time from '../Assets/image/time.png';
+import address from '../Assets/image/address.png';
 import comment from '../Assets/image/comment.png';
 import share from '../Assets/image/share.png';
+import Footer from '../components/Footer';
+import Header from '../components/Header';
 const bannerStyle = {
   position: 'relative',
   textAlign: 'center',
@@ -49,7 +53,7 @@ const form = {
 
 const box = {
   marginLeft: 10,
-  width: '50%',
+
 };
 const videoContainerStyle = {
   display: 'flex',
@@ -62,8 +66,8 @@ const videoContainerStyle = {
 const contentContainerStyle = {
   position: 'absolute',
   textAlign: 'center',
-  width: 400,
-  marginTop: 30,
+  width: 580,
+  
   paddingLeft: 15,
   paddingRight: 15,
   backgroundColor: '#EAEDF5',
@@ -114,21 +118,25 @@ const additionalInfoStyle = {
 
 function DetailProject() {
   return (
-    <div style={{ position: 'relative', height: '100vh' }}>
+    <div>
+    
       <div style={bannerStyle}>
+      <Header/>
         <img
           src={banner}
           alt='banner'
           className='banner'
           style={{ width: '100%' }}
         ></img>
+        
         <div style={textContainerStyle}>
-          <p style={textStyle2}>Chi tiết dư án </p>
+          <p style={textStyle2}>Chi tiết dự án </p>
         </div>
       </div>
 
+   
       <div style={formcontainer}>
-        <label style={{ color: 'black', fontSize: '40px', fontWeight: 500 }}>
+      <label style={{ color: 'black', fontSize: '34px', fontWeight: 500,  }}>
           DỰ ÁN PHÁT TRIỂN LÀNG PÀ-ONG
         </label>
         <img
@@ -137,34 +145,48 @@ function DetailProject() {
           className='share'
           style={{ width: 30, height: 30, marginLeft: 20 }}
         ></img>
-        <p></p>
+      <br/>
 
+        
+      <img
+                src={time}
+                alt='heart'
+                className='heart'
+                style={{ width: 30, height: 30, marginRight: 20 }}
+              ></img>
         <label
           style={{
+            fontStyle :'italic',
             color: 'black',
-            fontSize: '12px',
+            fontSize: '16px',
             fontWeight: 500,
             paddingTop: '10px',
           }}
         >
-          Từ: 11-11-2021{' '}
+         Thời gian thực hiện: 01/11/2023 ~ 01/11/2025 (2 năm){' '}
+          
         </label>
-        <button
+        <br/>
+
+        <img
+                src={address}
+                alt='heart'
+                className='heart'
+                style={{ width: 30, height: 30, marginRight: 20 }}
+              ></img>
+        <label
           style={{
-            width: '150px',
-            height: '40px',
-            backgroundColor: '#219D80',
-            borderRadius: 5,
-            border: 0,
-            margin: 10,
-            fontWeight: 700,
-            color: 'white',
-            marginLeft: 520,
+            fontStyle :'italic',
+            color: 'black',
+            fontSize: '16px',
+            fontWeight: 500,
+            paddingTop: '10px',
           }}
         >
-          {' '}
-          Đăng kí tham gia{' '}
-        </button>
+         Địa điểm thực hiện: cụm dân cư Pà-Căng mới{' '}
+          
+        </label>
+      <p></p>
 
         <div style={formandbox}>
           <div style={form}>
@@ -174,81 +196,19 @@ function DetailProject() {
                 <iframe
                   width='900'
                   height='380'
-                  src='https://www.youtube.com/embed/543jwFfCZvg?list=PLp6D8X7L5wgbTLG-OR0q8hJws4wD18e7o'
+                  src='https://www.youtube.com/embed/jKwQ8ork7Bw'
                   title='YouTube video player'
                   allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture'
                   allowfullscreen
                 ></iframe>
+                
               </div>
+              
             </div>
-          </div>
-          <div style={box}>
-            <p></p>
-            <label>
-              Dự án phát triển Làng Pà-Ong là dự án được ấp ủ trong một thời
-              gian rất lâu. Khi thực hiện gặp rất nhiều khó khăn và thử thách.
-              Nhưng với mong ước đem lại cuộc sống tốt hơn cho toàn dân ở làng
-              Pà-Ong chính là sứ mệnh cực kì to lơn. Chính vì thế chung tôi đã
-              cố gắng hết sức mang lại những cuộc đời tốt hơn cho người dân ở
-              đâu
-            </label>
-
-            <div>
-              <button
-                style={{
-                  width: '120px',
-                  height: '35px',
-                  backgroundColor: '#219D80',
-                  borderRadius: 15,
-                  border: 0,
-                  margin: 10,
-                  fontWeight: 700,
-                  color: 'white',
-                }}
-              >
-                Bài giới thiệu
-              </button>
-              <button
-                style={{
-                  width: '120px',
-                  height: '35px',
-                  backgroundColor: '#219D80',
-                  borderRadius: 15,
-                  border: 0,
-                  margin: 10,
-                  fontWeight: 700,
-                  color: 'white',
-                  marginLeft: 40,
-                }}
-              >
-                Bảng kế hoạch
-              </button>
-            </div>
-            <div>
-              <img
-                src={heart}
-                alt='heart'
-                className='heart'
-                style={{ width: 30, height: 30, marginRight: 20 }}
-              ></img>
-              <img
-                src={comment}
-                alt='comment'
-                className='comment'
-                style={{ width: 30, height: 30, marginRight: 20 }}
-              ></img>
-              <img
-                src={share}
-                alt='share'
-                className='share'
-                style={{ width: 30, height: 30, marginRight: 20 }}
-              ></img>
-            </div>
-
             <div style={contentContainerStyle}>
               <div style={donateTextStyle}>
-                <label>Quyên góp</label>
-                <label>60%</label>
+                <label style={{ fontSize : 15, fontWeight : 600, fontFamily :  'Montserrat' }}>Quyên góp</label>
+                <label style={{ fontSize : 15, fontWeight : 600, fontFamily :  'Montserrat' }}>60%</label>
               </div>
 
               <div style={ratingContainerStyle}>
@@ -258,30 +218,72 @@ function DetailProject() {
                 <button style={donateButtonStyle}>Đóng góp ngay</button>
               </div>
               <div style={additionalInfoStyle}>
-                <label>Đã góp được: 6,000,000₫</label>
-                <label>Mục tiêu: 10,000,000₫</label>
+                <label style={{ fontSize : 15, fontWeight : 600, fontFamily :  'Montserrat' }}>Đã góp được: 6,000,000₫</label>
+                <div>
+                <label style={{ fontSize : 15, fontWeight : 600, fontFamily :  'Montserrat' }}>10,000,000₫</label>
+                </div>
+                
               </div>
             </div>
           </div>
+          <div style={box}>
+            
+            <label style={{ lineHeight : 2.2   }}>
+            Mỗi hộ có diện tích vườn trên 500m2. Có điện nước đầy đủ. Hơn nữa bà con có tập quán trồng trọt và chăn nuôi. Dự án nhằm xây dựng mô hình trồng trọt và chăn nuôi quy mô nhỏ trong cụm dân cư. Dự án sẽ đồng hành cùng bà con trong quá trình xây dựng, phát triển mô hình. Qua đó, chia sẻ kiến thức khoa họa và kỹ năng làm vườn, giúp bà con hiểu sâu sắc về làm kinh tế vườn và tự xây dựng được mô hình kinh tế vườn cho gia đình của mình. Kết quả là vườn nhà được sử dụng hiệu quả, mức sống được nâng cao. Hơn nữa, góp phần làm môi trường xanh sạch đẹp.
+            </label>
+
+            <div>
+              <button
+                style={{
+                  width: '170px',
+                  height: '35px',
+                 backgroundColor :'white',
+                  border: 0,
+                  margin: 10,
+                  fontWeight: 700,
+                  color: 'black',
+                }}
+              >
+                <p style={{ fontFamily: ' Playfair Display', fontSize : 18, textDecoration :'underline' }}>Danh sách tài trợ</p>
+              </button>
+              <button
+                style={{
+                  width: '100px',
+                  height: '35px',
+                backgroundColor : 'white', 
+                  border: 0,
+                  margin: 10,
+                  fontWeight: 700,
+                  color: 'black',
+                  marginLeft: 40,
+                }}
+              >
+                <p style={{ fontFamily: ' Playfair Display', fontSize : 18, textDecoration :'underline' }}>Kinh phí</p>
+              </button>
+
+         
+              <img
+                src={heart}
+                alt='heart'
+                className='heart'
+                style={{ width: 30, height: 30, marginRight: 20 }}
+              ></img>
+             
+          
+            </div>
+           
+
+           
+          </div>
         </div>
-        <button
-          style={{
-            marginLeft: 600,
-            marginTop: 20,
-            width: 430,
-            height: 50,
-            marginBottom: 50,
-            backgroundColor: '#34AED4',
-            border: 0,
-            borderRadius: 20,
-            fontFamily: 'Montserrat',
-            fontSize: 20,
-          }}
-        >
-          Trở thành nhà tài trợ hoặc quyên góp
-        </button>
+      
       </div>
+      <div style={{ marginTop : 300 }}>
+      <Footer/>
+      </div>
+          
     </div>
+    
   );
 }
 

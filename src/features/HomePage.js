@@ -177,7 +177,10 @@ function Home() {
   return (
     <div style={{ position: 'relative', height: '100vh' }}>
       <div style={bannerStyle}>
-        <Header />
+      
+        <Header/>
+     
+     
         <img src={banner} alt="banner" className="banner" style={{ width: "100%" }}></img>
         <div style={textContainerStyle}>
           <p style={textStyle1}>MANG HY VỌNG ĐẾN NHỮNG MẢNH ĐỜI KHÓ KHĂN</p>
